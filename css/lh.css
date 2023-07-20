@@ -1091,7 +1091,7 @@
         height: 18px;
         display: block;
         top: 30%;
-        left: 85%;
+        left: 90%;
 
     }
 
@@ -1457,7 +1457,7 @@
 
     .mainvisual .main_slide .itm01 {
         height: 50vh;
-        background: url(../images/main_slider_01.jpg) no-repeat center center/cover;
+        background: url(../images/main_slider_07.jpg) no-repeat center center/cover;
     }
 
     .mainvisual .main_slide .itm02 {
@@ -1476,12 +1476,16 @@
         left: 50%;
         transform: translate(-50%, 0);
         z-index: 700;
+
+        display: none;
     }
 
     .mainvisual .slick-dots>li {
         display: inline-block;
         padding: 5px 0;
         cursor: pointer;
+
+        display: none;
     }
 
     .mainvisual .slick-dots>li button {
