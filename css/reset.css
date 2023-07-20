@@ -32,7 +32,13 @@ p {
     word-break: keep-all;
 }
 
+/* 
+html {
+    font-size: 6.25%;
+} */
+
 body {
+    /* font-size: 16rem; */
     line-height: 1;
     color: #444;
 }
