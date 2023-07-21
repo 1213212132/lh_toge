@@ -4,7 +4,7 @@
 } */
 
 .wrap {
-
+    overflow-x: hidden;
     font-family: 'GmarketSansMedium';
 
 }
@@ -661,11 +661,12 @@
         width: 100%;
         line-height: 40px;
 
-        transition: 0.5s;
+
 
     }
 
     .header .gnb>ul>li:hover .snb {
+        transition: 0.5s;
         background: white;
         height: 600px;
 
@@ -1248,6 +1249,7 @@
 } */
 
 .mainvisual {
+
     padding-bottom: 5.4rem;
     font-family: 'IBMPlexSansKR-Regular';
 }
