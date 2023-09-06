@@ -2618,7 +2618,7 @@
         padding: 8rem 0;
         background: url(../images/eventroom_bg.png) no-repeat;
         background-size: cover;
-        max-height: 600px;
+        max-height: 800px;
         color: #fff;
     }
 
@@ -2627,10 +2627,18 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 30px;
 
+
     }
 
     .call .call_img figure {
         position: relative;
+        width: 100%;
+
+
+    }
+
+    .call .call_img figure img {
+
         width: 100%;
 
 
@@ -3086,6 +3094,7 @@
 
 
     .footer {
+
         position: relative;
         color: #fff;
         align-items: center;
@@ -3207,6 +3216,7 @@
         position: relative;
         background: #555;
         height: 210px;
+        text-align: center;
     }
 
 
